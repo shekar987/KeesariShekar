@@ -1,0 +1,82 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+
+}
+
+.box input[type="textbox"],.box input[type="password"]
+{
+	margin:20px auto;
+	display: block;
+	padding: 14px 10px;
+	border:0px;
+	background: none;
+	border:2px solid #3498db;
+	outline: none;
+	border-radius: 24px;
+	width: 200px;
+}
+.box input[type="button"]{
+	color: white;
+	font-family: sans-serif;
+
+	margin:20px auto;
+	display: block;
+	padding: 14px 10px;
+	border:0px;
+	background: none;
+	border:2px solid #3498db;
+	outline: none;
+	border-radius: 24px;
+	width: 100px;
+	text-transform: uppercase;
+}
+.box p{
+	color: white;
+	font-family: sans-serif;
+	font-weight: 500px;
+
+}
+
+.box input[type="textbox"]:focus,.box input[type="password"]:focus
+{
+	width: 280px;
+border-color: #2ecc71;
+}
+
+.box input[type="button"]:hover
+{
+	width:150px;background-color: #2ecc71;
+}
+
+body
+{
+	font-family: sans-serif;
+	/* background: #34495e; */
+	/* background-image: url("https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg"); */
+}
+
+#lbl1{
+	padding:20px;
+	font-size: 20px;
+}
+
+#lbl1 a{
+	color:#3498db;
+	text-decoration: none;
+}
+
+.box h1{
+	color: white;
+	font-weight: 500px;
+} 
