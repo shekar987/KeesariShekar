@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Signup
+	</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script type="text/javascript">
+		function validate()
+		{
+
+			var name=document.getElementById("name").value;
+	var pass=document.getElementById("password").value;
+	var repass=document.getElementById("re").value;
+			if (name=="") {
+				alert("enter name");
+			}
+			else if(pass=="")
+			{
+				alert("enter password");
+			}
+			else if(repass=="")
+			{
+				alert("enter password");
+			}
+			else if(pass!=repass)
+			{
+				alert("password mismatch");
+			}
+			else
+			{
+				alert("signup successfully");
+			}
+		}
+	</script>
+</head>
+<body style="background-image: url('p1.jpg');">
+
+	<form class="box">
+		<h1> Sign up</p>
+		<input type="textbox" name="" placeholder="Enter Email" id="name">
+		<input type="password" name="" placeholder="Enter Password" id="password">
+		<input type="password" name="" placeholder="Re-enter Password" id="re">
+		<input type="button" name="" value="Signup" onclick="validate()">
+		<p id="lbl1"> <a href="index.html" id="lbl2">Old User? Signin</a></p>
+	</form>
+
+
+</body>
+</html>
